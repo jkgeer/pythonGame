@@ -1,12 +1,11 @@
 # INTRODUCTION LEVEL 
 def player_input (prompt, choices_list):
-
+choices_list = ['Female', 'Male'];
     player[choice] = player_input("Will you be a female or male in this game?", ["Female", "Male"])
     input =""
 
     print prompt 
     print "Your Choices Are:"
-    choices_list = ['Female', 'Male'];
 
 for choice in choices_list:
     print choice
@@ -16,7 +15,7 @@ while input not in choices_list:
     print input
 
 # INTRODUCTION LEVEL 
-player_input(prompt, choices_list);
+def player_input(prompt, choices_list);
 player[choice] = player_input("Do you speak up or comply?", ["Speak up", "Comply"]) 
 input =""
 
@@ -31,7 +30,7 @@ while input not in choices_list:
     print input
 
 # SCRIBE LEVEL 1 
-player_input(prompt, choices_list);
+def player_input(prompt, choices_list);
 player[choice] = player_input("What will you do in this dank and lonely cell?", ["Break out", "Stay dank and lonely"])
 input =""
 
@@ -74,7 +73,7 @@ while input not in choices_list:
     print input
 
 #BAR MAID LEVEL 1 
-player_input(prompt, choices_list);
+def player_input(prompt, choices_list);
 player[choice] = player_input("What will you do in this dank and lonely cell?", ["Break out", "Stay dank and lonely"]) 
 input =""
 
