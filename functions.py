@@ -1,11 +1,11 @@
 # INTRODUCTION LEVEL 
 def player_input (prompt, choices_list):
-choices_list = ['Female', 'Male'];
-player[choice] = player_input("Will you be a female or male in this game?")
-input =""
 
-print prompt 
-print "Your Choices Are:"
+    player[choice] = player_input("Will you be a female or male in this game?". ["Female", "Male"])
+    input =""
+
+    print prompt 
+    print "Your Choices Are:"
 
 for choice in choices_list:
     print choice
