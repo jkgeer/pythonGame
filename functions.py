@@ -1,6 +1,6 @@
 # INTRODUCTION LEVEL 
-list player_input(prompt, choices_list);
-player[choice] = player_input("Are you going to be a male or a female in this game?", ["Female", "Male"]) 
+print "Will you be a female or male in this game?"
+player[choice] = list ["Female", "Male"]; 
 input =""
 
 print prompt 
