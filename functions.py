@@ -5,9 +5,13 @@ def player_input (prompt, choices_list):
 
     print "Your Choices Are:"
 choices_list = ['Female', 'Male'];
-for choice in choices_list:
-    print choice
+for choices_list[0] in choices_list:
+    print choices_list[0]
     import barmaid_level1
+
+for choices_list[1] in choices_list:
+    print choices_list[1]
+    import scribe_level1
 
 while input not in choices_list:
     input = raw_input("What is your choice? \n")
