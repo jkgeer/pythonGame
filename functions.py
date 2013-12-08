@@ -6,7 +6,7 @@ def player_input (prompt, choices_list):
 
     print prompt 
     print "Your Choices Are:"
-
+choices_list = ['Female', 'Male'];
 for choice in choices_list:
     print choice
 
