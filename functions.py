@@ -1,6 +1,7 @@
 # INTRODUCTION LEVEL 
-player[choice] = raw_input("Will you be a female or male in this game?")
+
 def player_input (prompt, choices_list):
+    player[choice] = player_input("Will you be a female or male in this game?")
     print "Your Choices Are:"
     
 choices_list = ['Female', 'Male'];
