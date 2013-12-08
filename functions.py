@@ -1,6 +1,6 @@
 # INTRODUCTION LEVEL 
 print "Will you be a female or male in this game?"
-player[choice] = list ["Female", "Male"]; 
+choices_list = list ["Female", "Male"]; 
 input =""
 
 print prompt 
