@@ -1,22 +1,21 @@
 # INTRODUCTION LEVEL 
 def player_input (prompt, choices_list):
     player[choice] = raw_input("Will you be a female or male in this game?")
-    input =""
 
     print "Your Choices Are:"
 choices_list = ['Female', 'Male'];
-for choices_list[0] in choices_list:
+if choices_list[0] in choices_list:
     print " Oh, you're a girl! You are a bar maid with an attitude. After recently being homeless on the streets of Karflooglesville, you are now working for the royal family. In particular, your duty is to serve the king his favorite alcoholic beverages. Today, the King has gotten sick of your beer-serving abilities. For some reason, you are off your game and he insists that the beverage is simply too flat, it tastes unbearable, and the smell is too sweet for his senses. \n"
     
 
-for choices_list[1] in choices_list:
+if choices_list[1] in choices_list:
     print " Oh, a boy I see. So you are a palace scribe who has been working for the King of Karflooglesville for a number of years now. As a young boy, your parents sent you to work for the palace in order to pay for their overdue taxes. The King has grown fond of you, but as of late, the King has been displeased with the notes you've taken because you haven't written enough about him to satisfy his arrogance.\n"
-  
 
 while input not in choices_list:
     input = raw_input("What is your choice? \n")
     print input
-
+    
+#Disregard everything below, I'm testing above
 # INTRODUCTION LEVEL 
 def player_input(prompt, choices_list):
     player[choice] = player_input("Do you speak up or comply?", ["Speak up", "Comply"]) 
