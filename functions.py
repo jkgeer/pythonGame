@@ -1,9 +1,8 @@
 # INTRODUCTION LEVEL 
 def player_input (prompt, choices_list):
-    player[choice] = player_input("Will you be a female or male in this game?", ["Female", "Male"])
+    player[choice] = raw_input("Will you be a female or male in this game?")
     input =""
 
-    print prompt 
     print "Your Choices Are:"
 choices_list = ['Female', 'Male'];
 for choice in choices_list:
