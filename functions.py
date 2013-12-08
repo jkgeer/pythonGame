@@ -1,8 +1,8 @@
 # INTRODUCTION LEVEL 
+player[choice] = raw_input("Will you be a female or male in this game?")
 def player_input (prompt, choices_list):
-    player[choice] = raw_input("Will you be a female or male in this game?")
-
     print "Your Choices Are:"
+    
 choices_list = ['Female', 'Male'];
 if choices_list[0] in choices_list:
     print " Oh, you're a girl! You are a bar maid with an attitude. After recently being homeless on the streets of Karflooglesville, you are now working for the royal family. In particular, your duty is to serve the king his favorite alcoholic beverages. Today, the King has gotten sick of your beer-serving abilities. For some reason, you are off your game and he insists that the beverage is simply too flat, it tastes unbearable, and the smell is too sweet for his senses. \n"
