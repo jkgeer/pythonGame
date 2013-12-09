@@ -1,11 +1,15 @@
-###pythonGame
-
-This is the readme for pythonGame, a text-based "Create Your Own Adventure" Game that is to be playable for those ages 13 and up. It was created as a part of a final project for INLS 560: Programming for Information Professionals at UNC Chapel Hill.
-
-### The Storyline
+###Karflooglesville Quest for Adventure
+This is the readme for the "Karflooglesville Quest for Adventure," a text-based Medieval "Create Your Own Adventure" Game that is to be playable for those ages 13 and up. It was created as a part of a final project for INLS 560: Programming for Information Professionals at UNC Chapel Hill.
 
 
 ### How To Play
+First make sure that you have a Linux machine in order to run the program. In order to start the game, you should do the following command:
+
+```python
+python intro.py
+```
+
+This will begin the game.
 
 ### Forking!
 After forking our repo, you'll get the following:

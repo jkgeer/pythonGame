@@ -1,7 +1,9 @@
+import functions.py
 print "Welcome to Chapter 2: The Forest of Love!" 
 print " "
 print "You have successfully escaped from your cell! But you are being chased by the palace guards. You run for your life and end up crashing into a handsome lad."
 print " "
+player_input(prompt="You give him a terrible gash across his thigh.  He is tearing up from the pain.  Will you heal cut with magical beer mug or give him an angry look?", a=
 pain_response = raw_input("You give him a terrible gash across his thigh.  He is tearing up from the pain.  Will you " + "\"heal cut with magical beer mug\"" + ' or '+ "\"give him an angry look\""+'?')
 if 'heal cut with magical beer mug' in pain_response:
 	print " "
