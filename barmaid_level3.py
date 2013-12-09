@@ -29,7 +29,7 @@ if 'mastery over brew' in king_rebuttal: #this lays out the story for players th
       print " "
       print "You abandon the gasping prince and sprint to your lover. An enemy spots your sprint and readies his bow, firing an arrow that just misses you but plunges into the neck of your lover, ending his suffering. You step back in horror but come to your senses and rush back to the prince's aid, but it's too late, and the prince expires. The king is outraged that you would abandon his one heir. 'IT'S BACK TO THA DUNGEON FER YOU LASSIE!' he yells."\n"
       print "import barmaid_level1.py" #...it sends you back to the dungeon, so you restart the whole game.
-  if 'tend to the aid of the prince' in important_choice:
+  if 'tend to the aid of the prince' in important_choice: #this is the second choice
       print " "
       print "You kneel down to the bleeding prince and quietly shove a healing salve into his mouth. The prince gulps all he can and starts to breathe a little more regularly. A nearby enemy archer scans over your location, but your lack of movement fools him and he continues his patrol. Quickly, your lift the prince into the safety of the keep and deftly roll a keg of ale to your lover's location, masking him from the enemy. Congratulations! You have saved the heir of Karflooglesville and surely are a heroine throughout all the land! But will the kingdom be able to fend off the enemy? Stay tuned to our project to find out!\n" #this is the end of our first go at the project, but if you're creating a new level obviously end it however you want.
       
