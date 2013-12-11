@@ -17,7 +17,7 @@ response= raw_input("What is your argument?") #raw input for response
 
 if (response).lower() in rebuttalchoices[0]: #User chooses to argue proper Pale Ale
 	print "The king scoffs at your notion. 'A proper Pale Ale?? PAH! This be nothin' but a Pilsner-drinkin' kingdom lassie! I'm sentencing you to exile!"
-	player_input(prompt="As the wagon carrying you and your fellow exiles travels down a path out of the kingdom, a swarm of marauding bandits charges past you in the direction of the kingdom. In the melee, you're set free from your chains and begin to escape! Suddenly though, you see the enemy's camp, and their supplies curiously unguarded. Do you poison their stores or scurry away into the forest?", choice1="poison their stores", choice2="scurry away to forest") #User prompted to ignore story or do something about the beast
+	player_input(prompt="As the wagon carrying you and your fellow exiles travels down a path out of the kingdom, a swarm of marauding bandits charges past you in the direction of the kingdom. In the melee, you're set free from your chains and begin to escape! Suddenly though, you see the enemy's camp, and their supplies curiously unguarded. Do you poison their stores or scurry away into the forest?", choice1="poison their stores", choice2="scurry away to forest") #User prompted to defend her decisions
 
 	exilechoices=['poison their stores','scurry away to forest']
 
@@ -32,7 +32,7 @@ if (response).lower() in rebuttalchoices[0]: #User chooses to argue proper Pale 
 		print " "
 		print "Incorrect input. Try again."
 		response=raw_input("What is your choice?").lower()
-	if (response).lower() in exilechoices[0]: #User chooses to scurry into the woods
+	if (response).lower() in exilechoices[1]: #User chooses to scurry into the woods
 		print "Well, you're hated in the kingdom, your love has abandoned you because your cowardice and you have nothing but ale. This isn't exactly going to plan. Maybe try again?"
 		print "import barmaid_level3.py
 		
